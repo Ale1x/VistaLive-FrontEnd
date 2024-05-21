@@ -22,9 +22,6 @@ export function ImageCard({ src, alt, title, description }: ImageCardProps) {
           }}
           width="300"
         />
-        <div className="absolute top-2 left-2 bg-[#e53e3e] bg-opacity-50 px-2 py-1 rounded-md">
-          <span className="text-white font-bold">LIVE</span>
-        </div>
         <div className="absolute bottom-2 left-2 bg-black bg-opacity-50 px-2 py-1 rounded-md">
           <span className="text-white font-bold">{title}</span>
         </div>

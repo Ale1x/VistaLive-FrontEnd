@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { NavBar } from "./NavBar";
+import { NavBar } from "@/components/NavBar";
 
 export function Header() {
   return (
@@ -10,7 +9,7 @@ export function Header() {
             alt="VISTA live logo"
             className="w-10 h-10 rounded-full"
             height="40"
-            src="/placeholder.svg"
+            src="https://vistalive.it/wp-content/uploads/2022/06/Logo_512-300x300.png"
             style={{
               aspectRatio: "40/40",
               objectFit: "cover",

@@ -7,7 +7,7 @@ export function NavBar() {
         <li>
           <Link
             className="hover:text-gray-400 transition-colors duration-300"
-            href="#"
+            href="/"
           >
             Home
           </Link>
@@ -15,7 +15,7 @@ export function NavBar() {
         <li>
           <Link
             className="hover:text-gray-400 transition-colors duration-300"
-            href="#"
+            href="/webcams"
           >
             Webcams
           </Link>
@@ -23,25 +23,17 @@ export function NavBar() {
         <li>
           <Link
             className="hover:text-gray-400 transition-colors duration-300"
-            href="#"
+            href="/map"
           >
-            Map
+            Mappa
           </Link>
         </li>
         <li>
           <Link
             className="hover:text-gray-400 transition-colors duration-300"
-            href="#"
+            href="/contact"
           >
-            Regions
-          </Link>
-        </li>
-        <li>
-          <Link
-            className="hover:text-gray-400 transition-colors duration-300"
-            href="#"
-          >
-            Contact
+            Contatti
           </Link>
         </li>
       </ul>
